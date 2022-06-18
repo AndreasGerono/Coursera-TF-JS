@@ -60,31 +60,24 @@ function handleButton(elem){
   switch(elem.id){
     case "0":
       rockSamples++;
-      document.getElementById("rocksamples").innerText = "Rock samples:" + rockSamples;
+      document.getElementById("rocksamples").innerText = "Rock Samples:" + rockSamples;
       break;
     case "1":
       paperSamples++;
-      document.getElementById("papersamples").innerText = "Paper samples:" + paperSamples;
+      document.getElementById("papersamples").innerText = "Paper Samples:" + paperSamples;
       break;
     case "2":
       scissorsSamples++;
-      document.getElementById("scissorssamples").innerText = "Scissors samples:" + scissorsSamples;
+      document.getElementById("scissorssamples").innerText = "Scissors Samples:" + scissorsSamples;
       break;  
     case "3":
       spockSamples++;
-      document.getElementById("spocksamples").innerText = "Spock samples:" + spockSamples;
+      document.getElementById("spocksamples").innerText = "Spock Samples:" + spockSamples;
       break;
     case "4":
       lizardSamples++;
-      document.getElementById("spocksamples").innerText = "Lizard samples:" + lizardSamples;
+      document.getElementById("lizardsamples").innerText = "Lizard Samples:" + lizardSamples;
       break;
-            
-        // Add a case for lizard samples.
-        // HINT: Look at the previous cases.
-            
-        // YOUR CODE HERE
-    
-            
   }
   label = parseInt(elem.id);
   const img = webcam.capture();
